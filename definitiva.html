@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="boostrapcss/bootstrap.min.css" >
+    <link rel="stylesheet" href="boostrapcss/CSS.css">
+    
+        <title>definitiva</title>
+    </head>
+    <body>
+        <div  class="card" style="width: 25rem;">
+            <h5 class="card-subtitle mb-2 text-muted" class="lead"><p class="text-center" abbr title="HyperText Markup Language" class="initialism">Calculadora</p></h5>
+            <div class="row" class="card-body">                
+                    <div class="col"><input placeholder="Numero1..." class="col" type="number"  id="number1"></div>
+                    <div class="col"><input placeholder="Numero2..." class="col" type="number" id="number2"> </div>               
+            </div>
+                <div class="container">
+                    <div >
+                        <button type="button" value="+" onclick="sumar();" id="sumar" class="btn btn-primary"><b>+</b></button>
+                        <button type="button" value="-" onclick="resta();" id="resta" class="btn btn-primary"><b>-</b></button>
+                        <button type="button" value="x" onclick="multiplicacion();" id="multiplicacion" class="btn btn-primary"><b>*</b></button>
+                        <button type="button" value="÷" onclick="division();" id="division" class="btn btn-primary" ><b>%</b></button>
+                    </div>
+                </div>
+                <div id="resultado1" class="btn btn-secondary" ><b>Resultado...</b></div>
+                
+        </div>
+        <footer abbr title="HyperText Markup Language" class="initialism"><p class="card-subtitle mb-2 text-muted" style = "font-family:;" class="lead">APP REALIZADA POR: RONIEL DABOIN</p></footer>
+        <script src="definitivajs/definitiva.js"></script>
+    </body>
+
+</html>
