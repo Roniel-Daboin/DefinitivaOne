@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 body{
     background-attachment: fixed;
@@ -8,6 +9,10 @@ body{
     background: linear-gradient(-20deg, blue, rgb(209, 120, 190));
     width: 100%;
     margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    padding:0;
 }
 
 footer{
@@ -17,7 +22,7 @@ footer{
     padding-bottom: 1px;
     padding-left: 1%;
     width: 100%;
-    margin-top: 330px;
+    align-self: flex-end;
 }
 .container div{
      display: flex;
@@ -80,6 +85,11 @@ input{
 h5 {
     width: 100%;
     
+}
+
+.contenedor{
+    
+
 }
 
 @media screen and (max-width: 480px){
