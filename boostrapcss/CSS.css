@@ -7,8 +7,17 @@ body{
     background-repeat: no-repeat;
     background: linear-gradient(-20deg, blue, rgb(209, 120, 190));
     width: 100%;
-    box-sizing: border-box;
     margin: 0;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 footer{
@@ -21,6 +30,7 @@ footer{
     padding-left: 1%;
     width: 100%;
     margin-bottom: 0px;
+    position: absolute;
 }
 .container div{
      display: flex;
@@ -28,7 +38,7 @@ footer{
      box-sizing: border-box;
  }  
 .container div button {
-    padding:5px 26px;
+    padding:5px 30px;
     margin-bottom: 25px;
     margin-left: -15px;
     margin-right: -15px;
@@ -90,20 +100,40 @@ h5 {
 
 @media screen and (max-width: 480px){
     .card{
-        width: 300px;
+        width: 264px;
         height: 200px;
-        margin-left: 35px;
+        margin-left: 4px;
     }
     .btn-secondary{
         width: 240px;
         margin-top: -20px;
         height: 50px;
+        margin-left: -20px;
         
     }
     .container div button{
         width: 20px;
     
     }
+    .container div button {
+        padding:4px 20px;
+        margin-bottom: 25px;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-top: 5px;
+        box-sizing: border-box;
+    }
+    .container div button {
+        padding:4px 22px;
+        margin-bottom: 30px;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-top: 10px;
+        box-sizing: border-box;
+    
+    
+    }
+    
     
 
 }
@@ -112,14 +142,23 @@ h5 {
     .card{
         width: 300px;
         height: 200px;
-        margin-left: 110px;
+        margin-left: 140px;
+        margin-top: 32px;
     }
     .btn-secondary{
         width: 240px;
         margin-top: -20px;
         height: 50px;
+        padding: 20px;
         
     }
+    .container div button {
+        padding:4px 22px;
+        margin-bottom: 25px;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-top: 5px;
+        box-sizing: border-box;
     
     
     }
@@ -135,7 +174,7 @@ h5 {
 
 @media screen and (min-width: 780px) and (max-width: 1020px){
     .card{
-        width: 500px;
+        width: 600px;
         height: 260px;
         margin-left: 145px;
     }
@@ -147,6 +186,9 @@ h5 {
     .container div button{
         width: 80px;
         height: 45px;
+    }
+    footer {
+
     }
     
 
