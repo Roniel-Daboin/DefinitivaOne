@@ -87,10 +87,7 @@ h5 {
     
 }
 
-.contenedor{
-    
 
-}
 
 @media screen and (max-width: 480px){
     .card{
@@ -107,8 +104,6 @@ h5 {
         
     }
 
-    footer{
-        margin-top: 346px;
         
     }
 
@@ -168,9 +163,6 @@ h5 {
         width: 20px;
     }
 
-    footer {
-        margin-top: 544px;
-    }
     
     
     
@@ -190,9 +182,6 @@ h5 {
     .container div button{
         width: 80px;
         height: 45px;
-    }
-    footer {
-
     }
     
 
