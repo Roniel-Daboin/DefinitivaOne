@@ -18,11 +18,9 @@ footer{
     padding-top: 15px;
     padding-bottom: 1px;
     margin-top: 328px;
-    z-index: auto;
     padding-left: 1%;
     width: 100%;
     margin-bottom: 0px;
-    box-sizing: border-box;
 }
 .container div{
      display: flex;
