@@ -106,6 +106,9 @@ h5 {
         width: 20px;
     
     }
+    footer{
+        margin-bottom: -200px;
+    }
 
 }
 
@@ -121,9 +124,7 @@ h5 {
         height: 50px;
         
     }
-    footer{
-        margin-bottom: 10px;
-    }
+    
     
     }
 
