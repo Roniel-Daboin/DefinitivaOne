@@ -104,9 +104,6 @@ h5 {
         
     }
 
-        
-    }
-
     .container div button{
         width: 20px;
     
@@ -124,7 +121,7 @@ h5 {
         margin-left: -15px;
         margin-right: -15px;
         margin-top: 10px;
-        box-sizing: border-box;
+        
     
     
     }
@@ -163,6 +160,7 @@ h5 {
         width: 20px;
     }
 
+
     
     
     
@@ -182,6 +180,9 @@ h5 {
     .container div button{
         width: 80px;
         height: 45px;
+    }
+    footer {
+
     }
     
 
