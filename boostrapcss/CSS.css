@@ -15,22 +15,16 @@ html {
     position: relative;
 }
 
-body {
-  margin: 0;
-  margin-bottom: 40px;
-}
+
 
 footer{
     background: #ffffff;;
-    clear: both;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 1px;
-    margin-top: 328px;
     padding-left: 1%;
     width: 100%;
-    margin-bottom: 0px;
-    position: absolute;
+    margin-top: 340px;
 }
 .container div{
      display: flex;
@@ -43,7 +37,6 @@ footer{
     margin-left: -15px;
     margin-right: -15px;
     margin-top: 5px;
-    box-sizing: border-box;
 
 }
 
@@ -66,13 +59,13 @@ div .row{
     margin-bottom: 15px;
     margin-top: -15px;
     width: 110%;
-    box-sizing: border-box;
+    
 }
 
 .resultado1{
     margin-bottom: 200px;
     width: 100%;
-    box-sizing: border-box;
+    
     
 }
 
@@ -83,14 +76,12 @@ div .row{
     border-color: #dbd4d4;
     color: #635b5b;
     width: 100%;
-    box-sizing: border-box;
-}
+}   
 
 input{
     border-style: ridge;
     border-color: #e8ebef;
     width: 100%;
-    box-sizing: border-box;
 }
 
 h5 {
@@ -114,7 +105,7 @@ h5 {
     }
 
     footer{
-        margin-top: 390px;
+        margin-top: 0px;
         
     }
 
